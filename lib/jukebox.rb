@@ -71,6 +71,12 @@ def run(songs)
   
   end
   
+  if gets.chomp == "exit"
+    
+    exit_jukebox 
+    
+  end
+  
   
   
 end 
